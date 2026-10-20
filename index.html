@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#f7f5f0" />
+  <meta name="description" content="A minimalist personal portfolio." />
+  <title>Your Name — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="progress-track"><span id="progress"></span></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Go to home">YN<span>.</span></a>
+    <nav aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#work">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact" class="nav-contact">Contact <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-top reveal">
+        <span class="eyebrow"><span class="status-dot"></span> COMPUTER ENGINEERING STUDENT</span>
+        <span class="hero-location">Based in the Philippines · Open to opportunities</span>
+      </div>
+      <div class="hero-main">
+        <h1 class="hero-title">
+          <span class="line-reveal"><span>Learning by</span></span>
+          <span class="line-reveal"><span>building <em>things.</em></span></span>
+        </h1>
+        <div class="hero-bottom reveal">
+          <p class="hero-description">I’m <strong>Your Name</strong> — a curious student exploring technology, practical problem-solving, and the details that make things work.</p>
+          <a class="round-link" href="#work" aria-label="Explore projects"><span>↓</span></a>
+        </div>
+      </div>
+      <div class="hero-rule reveal"><span>PORTFOLIO / 2026</span><span>SCROLL TO EXPLORE ↓</span></div>
+      <div class="hero-shape" aria-hidden="true"><span></span><span></span><span></span></div>
+    </section>
+
+    <section class="about section-wrap section-space" id="about">
+      <div class="section-label reveal"><span>01 / ABOUT</span><span>A LITTLE ABOUT ME</span></div>
+      <div class="about-grid">
+        <h2 class="section-heading reveal">Curious mind.<br><em>Hands-on approach.</em></h2>
+        <div class="about-copy reveal">
+          <p>I enjoy understanding how technology works, learning through practical experience, and turning ideas into useful solutions. I’m currently building my skills through school projects and hands-on learning.</p>
+          <p>This portfolio is a snapshot of what I’m learning, what I’ve worked on, and where I’d like to grow next.</p>
+          <a class="text-link" href="#contact">Let’s connect <span>↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="work section-wrap section-space" id="work">
+      <div class="section-label reveal"><span>02 / SELECTED WORK</span><span>PROJECTS & LEARNING</span></div>
+      <div class="work-intro reveal">
+        <h2 class="section-heading">A few things<br><em>I’ve worked on.</em></h2>
+        <p class="muted">School projects, practical experiments, and ideas in progress.</p>
+      </div>
+      <div class="project-list">
+        <article class="project-card reveal">
+          <div class="project-index">01</div>
+          <div class="project-content">
+            <div class="project-meta"><span>HARDWARE / SCHOOL PROJECT</span><span>2026</span></div>
+            <h3>Item Borrowing Kiosk</h3>
+            <p>A concept for helping students borrow and track school items more conveniently. My contribution focused on the hardware side of the project.</p>
+            <div class="tag-row"><span>Hardware</span><span>System Concept</span><span>Team Project</span></div>
+          </div>
+          <a class="project-arrow" href="#contact" aria-label="Ask me about the item borrowing kiosk">↗</a>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-index">02</div>
+          <div class="project-content">
+            <div class="project-meta"><span>WEB / PERSONAL PROJECT</span><span>2026</span></div>
+            <h3>Personal Portfolio</h3>
+            <p>A simple, responsive website to introduce myself, share my learning journey, and organize projects in one place.</p>
+            <div class="tag-row"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+          </div>
+          <a class="project-arrow" href="#contact" aria-label="Ask me about the portfolio">↗</a>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-index">03</div>
+          <div class="project-content">
+            <div class="project-meta"><span>IN PROGRESS / LEARNING</span><span>ONGOING</span></div>
+            <h3>Learning Log</h3>
+            <p>A growing collection of notes, small experiments, and technical topics I’m exploring as I build confidence and experience.</p>
+            <div class="tag-row"><span>Documentation</span><span>Continuous Learning</span></div>
+          </div>
+          <a class="project-arrow" href="#contact" aria-label="Ask me about my learning log">↗</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="skills section-wrap section-space" id="skills">
+      <div class="section-label reveal"><span>03 / TOOLKIT</span><span>WHAT I’M LEARNING</span></div>
+      <div class="skills-grid">
+        <h2 class="section-heading reveal">Building a solid<br><em>foundation.</em></h2>
+        <div class="skill-content reveal">
+          <p class="muted">A work in progress — these are areas I’ve explored through coursework and hands-on practice.</p>
+          <div class="skill-row"><span>Computer hardware basics</span><span>01</span></div>
+          <div class="skill-row"><span>Technical troubleshooting</span><span>02</span></div>
+          <div class="skill-row"><span>HTML & CSS fundamentals</span><span>03</span></div>
+          <div class="skill-row"><span>GitHub & project documentation</span><span>04</span></div>
+          <div class="skill-row"><span>Teamwork & communication</span><span>05</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section-wrap section-space" id="contact">
+      <div class="section-label reveal"><span>04 / CONTACT</span><span>HAVE A QUESTION?</span></div>
+      <div class="contact-inner reveal">
+        <p class="eyebrow">THE NEXT STEP STARTS WITH A HELLO</p>
+        <h2>Let’s make<br><em>something useful.</em></h2>
+        <p class="contact-copy">I’m open to learning opportunities, collaboration, and conversations about technology.</p>
+        <a class="contact-button" href="mailto:your.email@example.com">Email me <span>↗</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer section-wrap">
+    <a class="brand" href="#home">YN<span>.</span></a>
+    <span>Designed with care · © <span id="year">2026</span> Your Name</span>
+    <a href="#home" class="back-top">BACK TO TOP ↑</a>
+  </footer>
+</body>
+</html>
